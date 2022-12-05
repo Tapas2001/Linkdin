@@ -1,0 +1,636 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue","Fira Sans",Ubuntu,Oxygen,"Oxygen Sans",Cantarell,"Droid Sans","Apple Color Emoji","Segoe UI Emoji","Segoe UI Emoji","Segoe UI Symbol","Lucida Grande",Helvetica,Arial,sans-serif;
+}
+
+/* Header container start   */
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type:none;
+}
+li{
+    display: inline-block;
+}
+
+div.navbar{
+    margin: 10px;
+    padding:10px;
+}
+
+div.navbar li:nth-child(1){
+    font-size: 30px;
+    padding-top: 5px;
+    padding-left: 50px;
+}
+div.navbar li:nth-child(1) a{
+    color: rgb(36, 124, 206);
+}
+div.navbar li:nth-child(1) span{
+    background-color: rgb(36, 124, 206);
+    color: white;
+    padding:0 4px;
+    border-radius: 4px;
+}
+div.navbar li:nth-child(2) a {
+    color: rgb(85, 83, 83);
+    font-size: 18px;
+    padding-left: 450px;
+}
+
+div.navbar li:nth-child(3) a, div.navbar li:nth-child(4) a, div.navbar li:nth-child(5) a{
+    color: rgb(85, 83, 83);
+    font-size: 18px;
+    padding-left: 30px;
+    transition: all 0.5;
+}
+div.navbar li:nth-child(2) a:hover, div.navbar li:nth-child(3) a:hover, div.navbar li:nth-child(4) a:hover, div.navbar li:nth-child(5) a:hover {
+    color: orangered;
+    transform:scale(1.1);
+}
+
+div.navbar li:nth-child(2) a:active, div.navbar li:nth-child(3) a:active, div.navbar li:nth-child(4) a:active, div.navbar li:nth-child(5) a:active {
+    color: black;
+    transform:scale(1.1);
+}
+div.navbar li:nth-child(6) a {
+    color: black;
+    font-size: 20px;
+    padding: 10px 30px;
+}
+div.navbar li:nth-child(6) a:hover,div.navbar li:nth-child(6) a:active{
+    color: orangered;
+    transform:scale(1.1); 
+    background-color: gainsboro;
+    border-radius: 30px;
+}
+div.navbar li:nth-child(7) a {
+    color: rgb(36, 124, 206);
+    font-size: 20px;
+    border: 2px solid rgb(36, 124, 206);
+    padding: 10px 30px;
+    border-radius: 30px;
+}
+div.navbar li:nth-child(7) a:hover{
+    background-color: rgb(230, 248, 249);
+}
+
+/* Header container end */
+
+/* main container start  */
+
+div.main-content{
+    margin: 10px;
+    padding: 60px;
+}
+
+h1{
+    font-size: 47px;
+    color: rgb(215, 121, 121);
+    padding-bottom: 40px;
+    font-family: sans-serif;
+}
+
+input[type = "email" ], input[type = "password" ]{
+    height: 45px;
+    width: 385px;
+    padding-left:10px;
+    font-size: 16px;
+}
+div.form-content a.forgotpassword{
+    text-decoration:none ;
+    color: black;
+    font-size:18px;
+}
+div.form-content a.forgotpassword:hover{
+    text-decoration: revert;
+    color: rgb(36, 124, 206);
+}
+div.form-content input[type = "submit" ]{
+    padding: 20px 165px 15px;
+    border-radius: 30px;
+    color: white;
+    background-color: rgb(36, 124, 206);
+    border: none;
+    font-size: 20px;
+}
+div.form-content input[type = "submit" ]:hover{
+    background-color: rgb(29, 81, 129);
+}
+div.form-content p{
+    font-size: 18px;
+    padding: 25px 190px 35px;
+    color: rgb(87, 82, 82);
+
+}
+div.form-content a.google{
+    color: #403a3a;
+    font-size: 20px;
+    border: 1px solid;
+    padding: 17px 91px 15px;
+    border-radius: 30px;
+}
+div.form-content a.google:hover{
+    border: 2px solid;
+}
+div.form-content a.google img{
+    width: 30px;
+    padding-right: 10px;
+}
+
+div.main-content1{
+    display: inline-block;
+    width: 50%;
+    text-align: left;
+}
+div.image-content{
+    display: inline;
+    width: 50%;
+    float: right;
+    text-align: center;
+    padding-top: 10px;
+}
+div.image-content img{
+    width:631px;
+}
+/* main container end  */
+/* section0 start */
+.section-section0{
+    height: 350px;
+    background-color: rgb(225, 225, 217);
+    padding:10px;
+}
+div.section0part1{
+    display: inline-block;
+    width: 40%;
+    padding:60px; 
+    padding-top: 90px;
+}
+div.section0part2{
+    display: inline;
+    width: 60%;
+    float: right;
+}
+div.section0part1 p{
+    font-size: 40px;
+    color: rgb(196, 59, 59);
+}
+div.section0part2 li{
+    display: block;
+}
+div.section0part2 li:nth-child(1) a{
+    color: rgb(57, 54, 54);
+    font-size: 20px;
+    background-color: white;
+    padding: 15px 200px 15px 20px;
+    border-radius: 5px;
+}
+div.section0part2 li:nth-child(1){
+    margin: 80px auto 45px 80px;
+}
+div.section0part2 li:nth-child(2) a{
+    color: rgb(57, 54, 54);
+    font-size: 20px;
+    background-color: white;
+    padding: 15px 129px 15px 20px;
+    border-radius: 5px;
+}
+div.section0part2 li:nth-child(2){
+    margin-left: 80px;
+}
+div.section0part2 li:nth-child(3) a{
+    color: rgb(57, 54, 54);
+    font-size: 20px;
+    background-color: white;
+    padding: 15px 196px 15px 20px;
+    border-radius: 5px;
+}
+div.section0part2 li:nth-child(3){
+    margin: 45px auto auto 80px;
+
+}
+
+/* section0 end */
+/* section1 container start  */
+.section-section1{
+    height: 350px;
+    background-color: whitesmoke;
+    padding:10px;
+}
+div.part1{
+    display: inline-block;
+    width: 40%;
+    padding:60px;
+    
+}
+
+div.part2{
+    display: inline;
+    width: 60%;
+    float: right;
+    padding-top: 40px;
+    color: #403a3a;
+    font-size: 16px;
+}
+
+div.part1 p{
+    font-size: 40px;
+}
+div.part2 li:nth-child(1) {
+    font-size: 20px;
+    border: 1px solid rgb(36, 124, 206);
+    padding: 15px 30px;
+    border-radius: 30px;
+    margin-top: 20px;
+    margin-right:5px;
+    margin-bottom: 30px;
+}
+div.part2 li:nth-child(1) a{
+    color: rgb(36, 124, 206);
+}
+div.part2 li:nth-child(1):hover{
+    background-color: rgb(230, 248, 249); 
+}
+
+div.part2 li:nth-child(2) a, div.part2 li:nth-child(3) a,  div.part2 li:nth-child(4) a,  div.part2 li:nth-child(5) a, div.part2 li:nth-child(6) a, div.part2 li:nth-child(7) a,  div.part2 li:nth-child(8) {
+    font-size: 20px;
+    color: rgb(57, 54, 54);
+    border: 1px solid rgb(57, 54, 54);
+    padding: 15px 30px;
+    border-radius: 30px;
+    margin: 30px 5px;
+}
+
+div.part2 li:nth-child(8) a{
+    color: rgb(57, 54, 54);
+}
+div.part2 li:nth-child(2) a:hover, div.part2 li:nth-child(3) a:hover,  div.part2 li:nth-child(4) a:hover,  div.part2 li:nth-child(5) a:hover, div.part2 li:nth-child(6) a:hover, div.part2 li:nth-child(7) a:hover,  div.part2 li:nth-child(8) a:hover{
+    color: black;
+    border: 1px solid black;
+}
+/* section1 end */
+/* section2 start */
+.section-section2{
+    height: 420px;
+    padding:10px;
+}
+
+div.section2part1{
+    display: inline-block;
+    width: 40%;
+    padding:40px;
+    margin-top: 40px;
+    padding-left: 60px;
+}
+div.section2part2{
+    display: inline;
+    width: 60%;
+    float: right;
+    padding-left: 15px;
+}
+div.section2part1 p{
+    font-size: 40px;
+}
+div.section2part2{
+    padding-top: 40px;
+    color: #403a3a;
+    font-size: 16px;
+}
+div.section2part2 li:nth-child(1) {
+    font-size: 20px;
+    border: 1px solid rgb(36, 124, 206);
+    padding: 15px 30px;
+    border-radius: 30px;
+    margin-top: 20px;
+    margin-right:5px;
+    margin-bottom: 30px;
+}
+div.section2part2 li:nth-child(1) a{
+    color: rgb(36, 124, 206);
+}
+div.section2part2 li:nth-child(1):hover{
+    background-color: rgb(230, 248, 249); 
+}
+div.section2part2 li:nth-child(2) a, div.section2part2 li:nth-child(3) a,  div.section2part2 li:nth-child(4) a,  div.section2part2 li:nth-child(5) a, div.section2part2 li:nth-child(6) a, div.section2part2 li:nth-child(7) a,  div.section2part2 li:nth-child(8), div.section2part2 li:nth-child(9) a, div.section2part2 li:nth-child(10) a{
+    font-size: 20px;
+    color: rgb(57, 54, 54);
+    border: 1px solid rgb(57, 54, 54);
+    padding: 15px 30px;
+    border-radius: 30px;
+    margin:  30px 5px;
+}
+div.section2part2 li:nth-child(8) a{
+    color: rgb(57, 54, 54);
+}
+div.section2part2 li:nth-child(2) a:hover, div.section2part2 li:nth-child(3) a:hover,  div.section2part2 li:nth-child(4) a:hover,  div.section2part2 li:nth-child(5) a:hover, div.section2part2 li:nth-child(6) a:hover, div.section2part2 li:nth-child(7) a:hover,  div.section2part2 li:nth-child(8) a:hover, div.section2part2 li:nth-child(9) a:hover, div.section2part2 li:nth-child(10) a:hover{
+    color: black;
+    border: 1px solid black;
+}
+/* section2 end */
+
+/* section3 start */
+.section-section3{
+    height: 300px;
+    padding:10px;
+    background-color: rgb(231, 225, 225);
+}
+div.section3part1{
+    display: inline-block;
+    width: 40%;
+    padding:60px;
+    
+}
+div.section3part2{
+    display: inline;
+    width: 60%;
+    float: right;
+
+}
+div.section3part1 p{
+    font-size: 40px;
+    color: rgb(196, 59, 59);
+}
+div.section3part2 li:nth-child(1) {
+    font-size: 20px;
+    border: 1px solid rgb(36, 124, 206);
+    padding: 15px 30px;
+    border-radius: 30px;
+    margin-top: 110px;
+    margin-left: 250px;
+}
+div.section3part2 li:nth-child(1) a{
+    color: rgb(36, 124, 206);
+}
+div.section3part2 li:nth-child(1):hover{
+    background-color: rgb(230, 248, 249); 
+}
+
+/* section3 end  */
+
+/* section4 starts */
+.section-section4{
+    height: 550px;
+    padding:10px;
+    background-color: whitesmoke;
+}
+div.section4part1{
+    display: inline-block;
+    width: 50%;
+    padding:60px;
+    
+}
+div.section4part2{
+    display: inline;
+    width: 50%;
+    float: right;
+    text-align: center;
+}
+div.section4part1 h2{
+    font-size: 40px;
+    color: rgb(215, 121, 121);
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+div.section4part1 p{
+    font-size: 25px;
+    color:rgb(31, 30, 30);
+}
+div.section4part2 img{
+    width: 450px;
+    padding-top: 50px;
+}
+/* section4 end  */
+/* section5 start  */
+.section-section5{
+    height: 750px;
+    padding:10px;
+}
+div.section5part1{
+    display: inline-block;
+    width: 50%;
+    padding:60px;
+    
+}
+div.section5part2{
+    display: inline;
+    width: 50%;
+    float: right;
+    padding-left: 20px;
+}
+div.section5part1 img{
+    width: 300px;
+    padding-top: 45px;
+}
+div.section5part2 img{
+    width: 300px;
+    padding-top: 110px;
+}
+div.section5part1 p{
+    font-size: 50px;
+    margin: 40px auto 50px;
+}
+div.section5part2 p{
+    font-size: 50px;
+    margin: 40px auto 50px;
+    padding-right: 90px;
+}
+div.section5part1 a{
+    font-size: 20px;
+    color: rgb(35, 35, 35);
+    border: 1px solid rgb(35, 35, 35);
+    border-radius: 30px;
+    padding: 15px 20px;
+}
+div.section5part2 a{
+    font-size: 20px;
+    color: rgb(35, 35, 35);
+    border: 1px solid rgb(35, 35, 35);
+    border-radius: 5px;
+    padding: 15px 20px;
+}
+div.section5part1 a:hover, div.section5part2 a:hover{
+    color: black;
+    border: 1px solid red;
+}
+/* section5 end  */
+/* section6 start*/
+.section-section6{
+    height: 650px;
+   
+}
+div.section6part1{
+    display: inline-block;
+    width: 50%;
+    padding:70px;
+    background-color: rgb(245, 236, 236);
+    
+}
+div.section6part2{
+    display: inline;
+    width: 50%;
+    float: right;
+    text-align: center;
+}
+div.section6part1 .p1{
+    font-size: 35px;
+    color: rgb(196, 59, 59);
+    margin: 30px auto 15px;
+
+}
+div.section6part1 .p2{
+    font-size: 35px;
+    color: rgb(28, 28, 28);
+    padding-bottom: 40px;
+}
+div.section6part1 li{
+    display: block;
+    margin-bottom: 55px;
+}
+div.section6part1 li:nth-child(1) a{
+    color: rgb(28, 28, 28);
+    font-size: 20px;
+    background-color: rgb(224, 216, 216);
+    padding: 18px 105px 18px 15px;
+}
+div.section6part1 li:nth-child(2) a{
+    color: rgb(28, 28, 28);
+    font-size: 20px;
+    background-color: rgb(224, 216, 216);
+    padding: 18px 232px 18px 15px;
+}
+div.section6part1 li:nth-child(3) a{
+    color: rgb(28, 28, 28);
+    font-size: 20px;
+    background-color: rgb(224, 216, 216);
+    padding: 18px 146px 18px 15px;
+}
+div.section6part1 li:nth-child(1) a:hover, div.section6part1 li:nth-child(2) a:hover, div.section6part1 li:nth-child(3) a:hover{
+    background-color: rgb(177, 169, 169);
+}
+div.section6part2 img{
+    width: 600px;
+    padding-top: 10px;
+}
+/* section6 end */
+/* section7 start */
+
+.section-section7{
+    height: 450px;
+    padding: 10px;
+    background-color: rgb(228, 225, 225);
+}
+div.section7part2 li, div.section7part3 li, div.section7part4 li, div.section7part5 li{
+    display: block;
+    padding-bottom: 5px;
+}
+div.section7part1{
+    width: 15%;
+    float: left;
+    padding: 30px 60px;
+    display: inline-block;
+    margin-right: 30px;
+}
+div.section7part1 .p1{
+    font-size: 22px;
+    color: rgb(36, 124, 206);
+}
+div.section7part1 p span{
+    background-color: rgb(36, 124, 206);
+    color: white;
+    padding:0 4px;
+    border-radius: 4px;
+}
+div.section7part2{
+    width: 15%;
+    display: inline-block;
+    padding:35px;
+}
+div.section7part3{
+    width: 15%;
+    display: inline-block;
+    padding-left: 20px;
+}
+div.section7part4{
+    width: 15%;
+    display: inline-block;
+    padding-left: 20px;
+}
+div.section7part5{
+    width: 15%;
+    display: inline-block;
+    padding-left: 80px;
+    margin-top: 40px;
+}
+div.section7part2 p, div.section7part3 p, div.section7part4 p, div.section7part5 p{
+    font-size: 20px;
+    font-style: normal;
+    padding-bottom: 10px;
+}
+div.section7part2 a, div.section7part3 a, div.section7part4 a, div.section7part5 a{
+        font-size: 16px;
+        color: rgb(50, 50, 50);
+}
+div.section7part2 a:hover, div.section7part3 a:hover, div.section7part4 a:hover, div.section7part5 a:hover{
+    color: rgb(24, 121, 212);
+    text-decoration: underline;
+}
+
+
+
+/* section7 end */
+/* footer section start */
+div.main-footer{
+    margin: 10px;
+    margin-bottom:-8px;
+    padding:10px;
+    font-size: 14px;
+}
+
+div.main-footer li:nth-child(1){
+    padding-top: 5px;
+    padding-left: 50px;
+    font-size: 16px;
+}
+div.main-footer li:nth-child(1) a{
+    color: rgb(36, 124, 206);
+}
+div.main-footer li:nth-child(1) span.first{
+    background-color: rgb(36, 124, 206);
+    color: white;
+    padding:0 4px;
+    border-radius: 4px;
+
+}
+div.main-footer li:nth-child(1) span.second{
+    color: rgb(85, 83, 83);
+    font-size: 14px;
+
+}
+div.main-footer li:nth-child(2) a, div.main-footer li:nth-child(3) a, div.main-footer li:nth-child(4) a, div.main-footer li:nth-child(5) a,div.main-footer li:nth-child(6) a, div.main-footer li:nth-child(7) a, div.main-footer li:nth-child(8) a,div.main-footer li:nth-child(9) a, div.main-footer li:nth-child(10) a,div.main-footer li:nth-child(11) a{
+    color: rgb(85, 83, 83);
+    padding-left: 10px;
+    transition: all 0.5;
+}
+div.main-footer li:nth-child(2) a:hover, div.main-footer li:nth-child(3) a:hover, div.main-footer li:nth-child(4) a:hover, div.main-footer li:nth-child(5) a:hover, div.main-footer li:nth-child(6) a:hover, div.main-footer li:nth-child(7) a:hover, div.main-footer li:nth-child(8) a:hover, div.main-footer li:nth-child(9) a:hover, div.main-footer li:nth-child(10) a:hover, div.main-footer li:nth-child(11) a:hover{
+    color: orangered;
+    transform:scale(1.1);
+}
+div.designer{
+    text-align: center;
+    padding-bottom: 10px;
+}
+div.designer span.name{
+    color: rgb(33, 33, 33);
+    font-size: 18px;
+    padding-top: 2px;
+    padding-bottom: 10px;
+}
+div.designer span.subname{
+    color: rgb(36, 124, 206);
+}
+/* footer section end */
