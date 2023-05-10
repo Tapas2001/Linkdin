@@ -1,3 +1,3 @@
 # Linkdin
 This project is a Linkdin clone
-using HTML, CSS3 
+using HTML and CSS 
